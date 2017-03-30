@@ -5,7 +5,11 @@
 #ifndef STORAGE_LEVELDB_DB_DB_ITER_H_
 #define STORAGE_LEVELDB_DB_DB_ITER_H_
 
+#include <stdlib.h>
+#include <stddef.h>
 #include <stdint.h>
+#include <unistd.h>
+#include <sys/types.h>
 #include "leveldb/db.h"
 #include "db/dbformat.h"
 
